@@ -89,7 +89,7 @@ public class Wizard
 
     public void Heal()
     {
-        if (Energy < 100)
+        if (Energy <= 100)
         {
             Energy += 5;
             Console.WriteLine($"{Name} melakukan heal! Energi meningkat menjadi {Energy}");
